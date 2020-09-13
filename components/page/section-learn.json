@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_learns",
+  "info": {
+    "name": "sectionLearn",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "concepts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concepts",
+      "required": true,
+      "max": 18,
+      "min": 6
+    }
+  }
+}

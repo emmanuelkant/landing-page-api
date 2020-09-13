@@ -21,17 +21,38 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "page.header"
+      "component": "page.header",
+      "required": true
     },
     "sectionAboutProject": {
       "type": "component",
       "repeatable": false,
-      "component": "page.about"
+      "component": "page.about",
+      "required": true
     },
     "sectionTech": {
       "type": "component",
       "repeatable": false,
-      "component": "page.tech"
+      "component": "page.tech",
+      "required": true
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-learn",
+      "required": true
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "sectionPrice": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-price",
+      "required": true
     }
   }
 }
