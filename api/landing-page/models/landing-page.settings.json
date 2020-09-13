@@ -48,10 +48,32 @@
       "component": "page.section-modules",
       "required": true
     },
-    "sectionPrice": {
+    "sectionAgenda": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-price",
+      "required": true
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box"
+    },
+    "sectionAboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us",
+      "required": true
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-review"
+    },
+    "sectionFAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
       "required": true
     }
   }

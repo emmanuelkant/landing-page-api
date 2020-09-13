@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "name": "sectionReview",
+    "icon": "cash-register"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.review",
+      "required": true,
+      "min": 4
+    }
+  }
+}

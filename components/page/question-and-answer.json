@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_question_and_answers",
+  "info": {
+    "name": "questionAndAnswer",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
