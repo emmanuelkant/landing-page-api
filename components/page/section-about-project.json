@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_headers",
+  "collectionName": "components_page_section_about_projects",
   "info": {
-    "name": "header",
-    "icon": "heading"
+    "name": "sectionAboutProject",
+    "icon": "info"
   },
   "options": {},
   "attributes": {
@@ -11,20 +11,14 @@
       "required": true
     },
     "description": {
-      "type": "text",
+      "type": "richtext",
       "required": true
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.button"
     },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true

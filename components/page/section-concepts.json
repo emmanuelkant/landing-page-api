@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_section_learns",
+  "collectionName": "components_page_section_concepts",
   "info": {
-    "name": "sectionLearn",
-    "icon": "apple-alt"
+    "name": "sectionConcepts",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
@@ -13,10 +13,7 @@
     "concepts": {
       "type": "component",
       "repeatable": true,
-      "component": "page.concepts",
-      "required": true,
-      "max": 18,
-      "min": 6
+      "component": "page.concepts"
     }
   }
 }

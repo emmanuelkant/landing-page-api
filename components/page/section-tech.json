@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_teches",
+  "collectionName": "components_page_section_teches",
   "info": {
-    "name": "tech",
-    "icon": "at"
+    "name": "sectionTech",
+    "icon": "toolbox"
   },
   "options": {},
   "attributes": {
@@ -13,7 +13,7 @@
     "techIcons": {
       "type": "component",
       "repeatable": true,
-      "component": "page.technologies",
+      "component": "page.tech-icons",
       "required": true,
       "max": 10,
       "min": 5

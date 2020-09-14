@@ -2,11 +2,11 @@
   "collectionName": "components_page_concepts",
   "info": {
     "name": "concepts",
-    "icon": "image"
+    "icon": "align-center"
   },
   "options": {},
   "attributes": {
-    "concept": {
+    "title": {
       "type": "string",
       "required": true
     }

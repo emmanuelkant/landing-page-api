@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_section_prices",
+  "collectionName": "components_page_section_agenda",
   "info": {
-    "name": "sectionPrice",
-    "icon": "comment-dollar"
+    "name": "sectionAgenda",
+    "icon": "calendar-alt"
   },
   "options": {},
   "attributes": {

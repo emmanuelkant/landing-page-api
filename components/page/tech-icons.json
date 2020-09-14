@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_technologies",
+  "collectionName": "components_page_tech_icons",
   "info": {
-    "name": "technologies",
-    "icon": "certificate"
+    "name": "techIcons",
+    "icon": "tools"
   },
   "options": {},
   "attributes": {

@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_question_and_answers",
+  "collectionName": "components_page_questions",
   "info": {
-    "name": "questionAndAnswer",
-    "icon": "align-right"
+    "name": "questions",
+    "icon": "question"
   },
   "options": {},
   "attributes": {

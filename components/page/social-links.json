@@ -9,11 +9,11 @@
     "title": {
       "type": "enumeration",
       "enum": [
-        "GitHub",
-        "LinkedIn",
-        "Facebook",
+        "Github",
         "Twitter",
-        "Dribbble"
+        "Dribbble",
+        "LinkedIn",
+        "Facebook"
       ],
       "default": "Twitter",
       "required": true

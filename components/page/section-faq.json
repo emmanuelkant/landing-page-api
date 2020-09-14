@@ -1,20 +1,19 @@
 {
   "collectionName": "components_page_section_faqs",
   "info": {
-    "name": "sectionFAQ",
-    "icon": "fan"
+    "name": "sectionFaq",
+    "icon": "question-circle"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "default": "FAQ",
       "required": true
     },
-    "questionAndAnswer": {
+    "questions": {
       "type": "component",
       "repeatable": true,
-      "component": "page.question-and-answer",
+      "component": "page.questions",
       "required": true,
       "min": 2
     }

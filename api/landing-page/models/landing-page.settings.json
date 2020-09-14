@@ -21,26 +21,22 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "page.header",
-      "required": true
+      "component": "page.header"
     },
     "sectionAboutProject": {
       "type": "component",
       "repeatable": false,
-      "component": "page.about",
-      "required": true
+      "component": "page.section-about-project"
     },
     "sectionTech": {
       "type": "component",
       "repeatable": false,
-      "component": "page.tech",
-      "required": true
+      "component": "page.section-tech"
     },
     "sectionConcepts": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-learn",
-      "required": true
+      "component": "page.section-concepts"
     },
     "sectionModules": {
       "type": "component",
@@ -51,8 +47,7 @@
     "sectionAgenda": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-price",
-      "required": true
+      "component": "page.section-agenda"
     },
     "pricingBox": {
       "type": "component",
@@ -62,19 +57,17 @@
     "sectionAboutUs": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-about-us",
-      "required": true
+      "component": "page.section-about-us"
     },
     "sectionReviews": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-review"
+      "component": "page.section-reviews"
     },
-    "sectionFAQ": {
+    "sectionFaq": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-faq",
-      "required": true
+      "component": "page.section-faq"
     }
   }
 }

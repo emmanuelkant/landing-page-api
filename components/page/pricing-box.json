@@ -2,19 +2,20 @@
   "collectionName": "components_page_pricing_boxes",
   "info": {
     "name": "pricingBox",
-    "icon": "dice-two"
+    "icon": "dollar-sign"
   },
   "options": {},
   "attributes": {
     "totalPrice": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "default": 415
     },
-    "installmentsNumber": {
+    "numberInstallments": {
       "type": "integer",
       "required": true
     },
-    "installmentPrice": {
+    "priceInstallment": {
       "type": "integer",
       "required": true
     },
@@ -23,7 +24,7 @@
       "default": "Create items as bullet list",
       "required": true
     },
-    "buyButton": {
+    "button": {
       "type": "component",
       "repeatable": false,
       "component": "page.button",
